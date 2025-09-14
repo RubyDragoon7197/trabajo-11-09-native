@@ -6,7 +6,7 @@ import Booleano from "./componentes/Booleano";
 import Estado from "./componentes/Estado";
 import Lista from "./componentes/Lista";
 import Objeto from "./componentes/Objeto";
-import String from "./componentes/String"; // 👈 aquí importas como String
+import String from "./componentes/String";
 
 export default function App() {
   return (
@@ -35,7 +35,7 @@ export default function App() {
 
       <View style={styles.section}>
         <Text style={styles.subtitle}>✍️ String</Text>
-        <String /> {/* 👈 aquí también debe ser String */}
+        <String />
       </View>
     </ScrollView>
   );
